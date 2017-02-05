@@ -12,23 +12,25 @@ function print_arr($a, $m, $n){
 	}
 }
 print_arr($a, $m, $n);
-// // task3
-// function count_num($arr, $num){
-// 	$res = 0;
-// 	for ($i=0; $i < count($arr); $i++) { 
-// 		if ($arr[$i] == $num) {
-// 			$res++;
-// 		}
-// 	}
-// 	if ($res != 0) {
-// 		echo $res . "<br>";
-// 	} else {
-// 		echo "not in array<br>";
-// 	}
-// }
-// $arr = [0, 4, 7, 0, 0, 0]  ;
-// $num = 0;
-// count_num($arr, $num);
+// task2
+function count_num($arr, $num){
+	$res = 0;
+	for ($i=0; $i < count($arr); $i++) { 
+		if ($arr[$i] == $num) {
+			$res++;
+		}
+	}
+	if ($res != 0) {
+		echo $res . "<br>";
+	} else {
+		echo "not in array<br>";
+	}
+}
+$arr = [0, 4, 7, 0, 0, 0]  ;
+$num = 0;
+count_num($arr, $num);
+//end of task 2
+
 //task3 new homework
 $arr1 = [];
 for ($i=0; $i < 10; $i++) { 
