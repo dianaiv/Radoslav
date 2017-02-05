@@ -55,3 +55,4 @@ function print_news($arr1){
 
 }
 print_news($arr1);
+//coments;
