@@ -1,16 +1,17 @@
 <?php
-// $m = 2;
-// $n = 3;
-// $a = [[5, 14, 2], [20, 9, 4]];
-// function print_arr($a, $m, $n){
-// 	for ($i=0; $i < $m; $i++) { 
-// 		for ($j=0; $j < $n; $j++) { 
-// 			echo "a[" . $i . "][" . $j . "] = " . $a[$i][$j] . " ";
-// 		}
-// 		echo "<br>";
-// 	}
-// }
-// print_arr($a, $m, $n);
+//Task 1
+$m = 2;
+$n = 3;
+$a = [[5, 14, 2], [20, 9, 4]];
+function print_arr($a, $m, $n){
+	for ($i=0; $i < $m; $i++) { 
+		for ($j=0; $j < $n; $j++) { 
+			echo "a[" . $i . "][" . $j . "] = " . $a[$i][$j] . " ";
+		}
+		echo "<br>";
+	}
+}
+print_arr($a, $m, $n);
 // // task3
 // function count_num($arr, $num){
 // 	$res = 0;
